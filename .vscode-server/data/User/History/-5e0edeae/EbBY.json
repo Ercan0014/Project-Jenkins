@@ -1,0 +1,6 @@
+{
+    "remote.SSH.path": "C:\\Program Files\\Git\\usr\\bin\\ssh.exe",
+    "remote.SSH.remotePlatform": {
+        "MyJenkinsServer": "linux"
+    }
+}
