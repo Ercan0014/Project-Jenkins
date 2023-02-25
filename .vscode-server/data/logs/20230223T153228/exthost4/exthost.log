@@ -1,23 +1,15 @@
-2023-02-23 15:33:12.060 [info] Extension host with pid 13720 started
-2023-02-23 15:33:12.101 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/ce7eca68b6066e2178292e0dbf26232b/vscode.lock': Lock acquired.
-2023-02-23 15:33:12.719 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-02-23 15:33:12.727 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
-2023-02-23 15:33:13.198 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-02-23 15:33:13.407 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2023-02-23 15:33:13.408 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2023-02-23 15:33:13.409 [info] Eager extensions activated
-2023-02-23 15:34:13.304 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
-2023-02-23 15:58:19.529 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1799
-2023-02-23 15:58:20.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1799
-2023-02-23 15:58:23.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1799
-2023-02-23 15:58:28.456 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1799
-2023-02-23 15:58:33.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1800
-2023-02-23 15:58:39.349 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1800
-2023-02-23 15:58:44.440 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1800
-2023-02-23 15:58:51.391 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1800
-2023-02-23 16:34:14.529 [info] Extension host terminating: received terminate message from renderer
-2023-02-23 16:34:14.529 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/ce7eca68b6066e2178292e0dbf26232b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2023-02-23 16:34:14.564 [error] Canceled: Canceled
+2023-02-23 16:35:37.414 [info] Extension host with pid 18398 started
+2023-02-23 16:35:37.432 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/ce7eca68b6066e2178292e0dbf26232b/vscode.lock': Lock acquired.
+2023-02-23 16:35:38.029 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-23 16:35:38.036 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-23 16:35:38.352 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-23 16:35:38.353 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-23 16:35:38.824 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-23 16:35:38.826 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-23 16:35:38.826 [info] Eager extensions activated
+2023-02-23 17:17:02.547 [info] Extension host terminating: received terminate message from renderer
+2023-02-23 17:17:02.549 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/ce7eca68b6066e2178292e0dbf26232b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-02-23 17:17:02.569 [error] Canceled: Canceled
 	at new u (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
 	at l.O (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
 	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
@@ -64,7 +56,7 @@
 	at g.deliver (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
 	at d.fire (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
 	at d.t (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:72:28518) setContext undefined
-2023-02-23 16:34:14.565 [error] Canceled: Canceled
+2023-02-23 17:17:02.569 [error] Canceled: Canceled
 	at new u (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
 	at l.O (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
 	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
@@ -111,4 +103,4 @@
 	at g.deliver (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
 	at d.fire (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
 	at d.t (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:72:28518) setContext undefined
-2023-02-23 16:34:14.565 [info] Extension host with pid 13720 exiting with code 0
+2023-02-23 17:17:02.570 [info] Extension host with pid 18398 exiting with code 0
